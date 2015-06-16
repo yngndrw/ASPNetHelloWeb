@@ -6,7 +6,7 @@ namespace HelloWeb
 	{
 		public void Configure(IApplicationBuilder applicationBuilder)
 		{
-			// Show sample page
+			// Show built-in sample page
 			applicationBuilder.UseStaticFiles();
 			applicationBuilder.UseWelcomePage();
 		}
